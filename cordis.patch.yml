@@ -6,4 +6,4 @@
 # row would double-mount the plugin.
 - insert:
     - id: dsh-prompt-boost
-      name: 'dsh-prompt-boost'
+      name: '@amyaxy/dsh-prompt-boost'
