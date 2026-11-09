@@ -1,5 +1,5 @@
 {
-  "name": "@amyaxy/dsh-prompt-boost",
+  "name": "@amyaxy/dsh-prompt-boost-model",
   "version": "0.1.0",
   "type": "module",
   "description": "Prompt enhancement for the DSH Web GUI, with a selectable enhancement model in Settings",
@@ -18,11 +18,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amyaxy/dsh-prompt-boost.git"
+    "url": "git+https://github.com/amyaxy/dsh-prompt-boost-model.git"
   },
-  "homepage": "https://github.com/amyaxy/dsh-prompt-boost#readme",
+  "homepage": "https://github.com/amyaxy/dsh-prompt-boost-model#readme",
   "bugs": {
-    "url": "https://github.com/amyaxy/dsh-prompt-boost/issues"
+    "url": "https://github.com/amyaxy/dsh-prompt-boost-model/issues"
   },
   "keywords": [
     "dsh",
