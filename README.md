@@ -1,4 +1,4 @@
-# dsh-prompt-boost
+# @amyaxy/dsh-prompt-boost
 
 > DSH 提示词增强插件 —— 在输入框把草稿改写为精准提示词，**并可在设置中选择由哪个模型完成改写**。
 
@@ -40,6 +40,12 @@ Trae 企业版
 2. 宿主默认模型（`agentDefaultModel`）。
 
 ## 安装
+
+```
+dsh plugin install @amyaxy/dsh-prompt-boost
+```
+
+或从当前目录安装：
 
 ```
 dsh plugin install <此目录的绝对路径>
