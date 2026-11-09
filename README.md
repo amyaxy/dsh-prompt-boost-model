@@ -105,3 +105,5 @@ lib/client.js         # 浏览器端：设置页、输入框按钮、预览浮�
 ```
 
 中英文案已内置，`label` 用 thunk，切换语言即时生效。
+
+[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
