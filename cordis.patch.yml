@@ -1,9 +1,14 @@
-# bundle patch for dsh-prompt-boost
+# bundle patch for @amyaxy/dsh-prompt-boost
 #
 # One row mounts BOTH halves of the package: the Loader splits a package into a
 # Host entry (`lib/index.js`, the enhancement route + config store) and a Client
 # entry (`lib/client.js`, the composer button + the Settings page), so a second
 # row would double-mount the plugin.
+#
+# The row id stays short (`prompt-boost`) rather than the npm name: it is only
+# this Loader entry's key, and keeping it distinct from the package name means a
+# profile can still tell "an entry from this bundle" apart from "a dependency
+# with that name" — the two collided while the row id was `dsh-prompt-boost`.
 - insert:
-    - id: dsh-prompt-boost
+    - id: prompt-boost
       name: '@amyaxy/dsh-prompt-boost'
