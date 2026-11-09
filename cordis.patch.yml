@@ -1,0 +1,9 @@
+# bundle patch for dsh-prompt-boost
+#
+# One row mounts BOTH halves of the package: the Loader splits a package into a
+# Host entry (`lib/index.js`, the enhancement route + config store) and a Client
+# entry (`lib/client.js`, the composer button + the Settings page), so a second
+# row would double-mount the plugin.
+- insert:
+    - id: dsh-prompt-boost
+      name: 'dsh-prompt-boost'
