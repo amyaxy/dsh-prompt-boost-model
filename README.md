@@ -1,4 +1,4 @@
-# @amyaxy/dsh-prompt-boost
+# @amyaxy/dsh-prompt-boost-model
 
 > DSH 提示词增强插件 —— 在输入框把草稿改写为精准提示词，**并可在设置中选择由哪个模型完成改写**。
 
@@ -42,7 +42,7 @@ Trae 企业版
 ## 安装
 
 ```
-dsh plugin install @amyaxy/dsh-prompt-boost
+dsh plugin install @amyaxy/dsh-prompt-boost-model
 ```
 
 或从当前目录安装：
@@ -51,7 +51,7 @@ dsh plugin install @amyaxy/dsh-prompt-boost
 dsh plugin install <此目录的绝对路径>
 ```
 
-安装后刷新页面即可；`cordis.patch.yml` 会插入一条 `dsh-prompt-boost` 条目。
+安装后刷新页面即可；`cordis.patch.yml` 会插入一条 `prompt-boost` 条目。
 
 ## 存储
 
