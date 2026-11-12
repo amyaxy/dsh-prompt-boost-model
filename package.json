@@ -1,6 +1,6 @@
 {
   "name": "@amyaxy/dsh-prompt-boost-model",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "Prompt enhancement for the DSH Web GUI, with a selectable enhancement model in Settings",
   "license": "MIT",
